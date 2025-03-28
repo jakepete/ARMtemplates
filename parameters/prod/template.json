@@ -1,0 +1,130 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_atlas_webapp_backend_prod_name": {
+            "defaultValue": "atlas-webapp-backend-uat",
+            "type": "String"
+        },
+        "storageAccounts_atlaspdfuat_name": {
+            "defaultValue": "atlaspdfuat",
+            "type": "String"
+        },
+        "sites_atlas_webapp_frontend_prod_name": {
+            "defaultValue": "atlas-webapp-frontend-uat",
+            "type": "String"
+        },
+        "storageAccounts_atlasimageuat_name": {
+            "defaultValue": "atlasimageuat",
+            "type": "String"
+        },
+        "virtualNetworks_atlas_vnet_prod_name": {
+            "defaultValue": "atlas-vnet-uat",
+            "type": "String"
+        },
+        "virtualMachines_atlas_jumpbox_prod_name": {
+            "defaultValue": "atlas-jumpbox-uat",
+            "type": "String"
+        },
+        "sshPublicKeys_atlas_jumpbox_prod_key_name": {
+            "defaultValue": "atlas-jumpbox-uat_key",
+            "type": "String"
+        },
+        "bastionHosts_atlas_vnet_bastion_prod_name": {
+            "defaultValue": "atlas-vnet-bastion-uat",
+            "type": "String"
+        },
+        "privateEndpoints_atlas_image_prod_pe_name": {
+            "defaultValue": "atlas-image-uat-pe",
+            "type": "String"
+        },
+        "publicIPAddresses_atlas_vnet_prod_ip_name": {
+            "defaultValue": "atlas-vnet-uat-ip",
+            "type": "String"
+        },
+        "components_atlas_webapp_backend_prod_name": {
+            "defaultValue": "atlas-webapp-backend-uat",
+            "type": "String"
+        },
+        "components_atlas_fe_app_insights_prod_name": {
+            "defaultValue": "atlas-fe-app-insights-uat",
+            "type": "String"
+        },
+        "components_atlas_webapp_frontend_prod_name": {
+            "defaultValue": "atlas-webapp-frontend-uat",
+            "type": "String"
+        },
+        "staticSites_atlas_client_landing_page_prod_name": {
+            "defaultValue": "atlas-client-landing-page-uat",
+            "type": "String"
+        },
+        "serverfarms_atlas_service_plan_backend_prod_name": {
+            "defaultValue": "atlas-service-plan-backend-uat",
+            "type": "String"
+        },
+        "serverfarms_atlas_service_plan_frontend_prod_name": {
+            "defaultValue": "atlas-service-plan-frontend-uat",
+            "type": "String"
+        },
+        "staticSites_atlas_static_webapp_frontend_prod_name": {
+            "defaultValue": "atlas-static-webapp-frontend-uat",
+            "type": "String"
+        },
+        "networkInterfaces_atlas_jumpbox_prod869_z1_name": {
+            "defaultValue": "atlas-jumpbox-uat869_z1",
+            "type": "String"
+        },
+        "flexibleServers_atlas_postgres_prod_name": {
+            "defaultValue": "atlas-postgres-uat",
+            "type": "String"
+        },
+        "networkSecurityGroups_atlas_jumpbox_prod_nsg_name": {
+            "defaultValue": "atlas-jumpbox-uat-nsg",
+            "type": "String"
+        },
+        "publicIPAddresses_atlas_vnet_bastion_ip_prod_name": {
+            "defaultValue": "atlas-vnet-bastion-ip-uat",
+            "type": "String"
+        },
+        "privateDnsZones_privatelink_blob_core_windows_net_name": {
+            "defaultValue": "privatelink.blob.core.windows.net",
+            "type": "String"
+        },
+        "systemTopics_atlaspdfuat_127a1714_1c36_49b4_9381_9c53047cdee4_name": {
+            "defaultValue": "atlaspdfuat-127a1714-1c36-49b4-9381-9c53047cdee4",
+            "type": "String"
+        },
+        "systemTopics_atlasimageuat_2026f19a_3a9b_4827_83a8_66732aba118f_name": {
+            "defaultValue": "atlasimageuat-2026f19a-3a9b-4827-83a8-66732aba118f",
+            "type": "String"
+        },
+        "workspaces_692afa0b_fb94_4544_9077_75f21578b5eb_atlas_prod_WUS2_name": {
+            "defaultValue": "692afa0b-fb94-4544-9077-75f21578b5eb-atlas-uat-WUS2",
+            "type": "String"
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_webapp_backend_prod_name": {
+            "defaultValue": "failure anomalies - atlas-webapp-backend-uat",
+            "type": "String"
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_fe_app_insights_prod_name": {
+            "defaultValue": "failure anomalies - atlas-fe-app-insights-uat",
+            "type": "String"
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_webapp_frontend_prod_name": {
+            "defaultValue": "failure anomalies - atlas-webapp-frontend-uat",
+            "type": "String"
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "defaultValue": "/subscriptions/692afa0b-fb94-4544-9077-75f21578b5eb/resourceGroups/bexaenterpriseglobal/providers/microsoft.insights/actiongroups/application insights smart detection",
+            "type": "String"
+        },
+        "privateDnsZones_privatelink_postgres_database_azure_com_externalid": {
+            "defaultValue": "/subscriptions/692afa0b-fb94-4544-9077-75f21578b5eb/resourceGroups/bexaenterpriseglobal/providers/Microsoft.Network/privateDnsZones/privatelink.postgres.database.azure.com",
+            "type": "String"
+        },
+        "workspaces_DefaultWorkspace_692afa0b_fb94_4544_9077_75f21578b5eb_WUS2_externalid": {
+            "defaultValue": "/subscriptions/692afa0b-fb94-4544-9077-75f21578b5eb/resourceGroups/DefaultResourceGroup-WUS2/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-692afa0b-fb94-4544-9077-75f21578b5eb-WUS2",
+            "type": "String"
+        }
+    }
+}

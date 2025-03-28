@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_atlas_webapp_backend_prod_name": {
+            "value": null
+        },
+        "storageAccounts_atlaspdfuat_name": {
+            "value": null
+        },
+        "sites_atlas_webapp_frontend_prod_name": {
+            "value": null
+        },
+        "storageAccounts_atlasimageuat_name": {
+            "value": null
+        },
+        "virtualNetworks_atlas_vnet_prod_name": {
+            "value": null
+        },
+        "virtualMachines_atlas_jumpbox_prod_name": {
+            "value": null
+        },
+        "sshPublicKeys_atlas_jumpbox_prod_key_name": {
+            "value": null
+        },
+        "bastionHosts_atlas_vnet_bastion_prod_name": {
+            "value": null
+        },
+        "privateEndpoints_atlas_image_prod_pe_name": {
+            "value": null
+        },
+        "publicIPAddresses_atlas_vnet_prod_ip_name": {
+            "value": null
+        },
+        "components_atlas_webapp_backend_prod_name": {
+            "value": null
+        },
+        "components_atlas_fe_app_insights_prod_name": {
+            "value": null
+        },
+        "components_atlas_webapp_frontend_prod_name": {
+            "value": null
+        },
+        "staticSites_atlas_client_landing_page_prod_name": {
+            "value": null
+        },
+        "serverfarms_atlas_service_plan_backend_prod_name": {
+            "value": null
+        },
+        "serverfarms_atlas_service_plan_frontend_prod_name": {
+            "value": null
+        },
+        "staticSites_atlas_static_webapp_frontend_prod_name": {
+            "value": null
+        },
+        "networkInterfaces_atlas_jumpbox_prod869_z1_name": {
+            "value": null
+        },
+        "flexibleServers_atlas_postgres_prod_name": {
+            "value": null
+        },
+        "networkSecurityGroups_atlas_jumpbox_prod_nsg_name": {
+            "value": null
+        },
+        "publicIPAddresses_atlas_vnet_bastion_ip_prod_name": {
+            "value": null
+        },
+        "privateDnsZones_privatelink_blob_core_windows_net_name": {
+            "value": null
+        },
+        "systemTopics_atlaspdfuat_127a1714_1c36_49b4_9381_9c53047cdee4_name": {
+            "value": null
+        },
+        "systemTopics_atlasimageuat_2026f19a_3a9b_4827_83a8_66732aba118f_name": {
+            "value": null
+        },
+        "workspaces_692afa0b_fb94_4544_9077_75f21578b5eb_atlas_prod_WUS2_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_webapp_backend_prod_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_fe_app_insights_prod_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___atlas_webapp_frontend_prod_name": {
+            "value": null
+        },
+        "actiongroups_application_insights_smart_detection_externalid": {
+            "value": null
+        },
+        "privateDnsZones_privatelink_postgres_database_azure_com_externalid": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_692afa0b_fb94_4544_9077_75f21578b5eb_WUS2_externalid": {
+            "value": null
+        }
+    }
+}
